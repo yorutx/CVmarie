@@ -141,25 +141,31 @@ div{
 }
 
 div.contact{
-    border-width: 2px;
-    border: solid,  #ffffff;
+    border-width : 2px;
+    border       : solid, #ffffff;
     border-radius: 20px;
-    margin-top: 20px;
-    padding: 20px;
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
-    width: 40%;
+    margin-top   : 20px;
+    padding      : 20px;
+    box-shadow   : 0 8px 24px rgba(0, 0, 0, 0.15);
+    width        : 40%;
+}
+
+.projectsRow {
+    display    : flex;
+    gap        : 20px;
+    align-items: stretch;
 }
 
 div.project{
-    border: solid, #ffffff;
-    display: inline-block;
-    border-width: 2px;
-    border-radius: 20px;
-    margin-top: 20px;
-    margin-right: 20px;
-    padding: 20px;
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
-	width: 40%; 
+ border       : solid, #ffffff;
+ display      : inline-block;
+ border-width : 2px;
+ border-radius: 20px;
+ margin-top   : 20px;
+ padding      : 20px;
+ box-shadow   : 0 8px 24px rgba(0, 0, 0, 0.15);
+ width        : 40%;
+ text-align   : start;
 }
 
 strong{
