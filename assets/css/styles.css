@@ -46,7 +46,7 @@ body {
 
 
 header {
-    background: #8f2335;
+    background: #a6c0e0;
     color     : #fff;
     padding   : 15px 0;
     text-align: center;
@@ -99,7 +99,7 @@ header nav li.active a {
 }
 
 header nav a:hover {
-    background-color: #540d19;
+    background-color: #bfa186;
     text-decoration : none;
 }
 

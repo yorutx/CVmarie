@@ -24,6 +24,7 @@ $aRemplacer = [
     '{{ header }}',
     '{{ content }}',
     '{{ footer }}',
+    '{{ assetsPath }}'
 ];
 
 $donneesDeRemplacement = [
@@ -31,6 +32,7 @@ $donneesDeRemplacement = [
     'header' => getHeaderOnePage(),
     'content' => getAllSections(),
     'footer' => getFooter(),
+    'assetsPath' => './assets'
 ];
 
 // On affiche le rendu final

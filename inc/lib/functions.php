@@ -133,7 +133,7 @@ function getAllSections(): string
         
         $output .= '<section id="' . $id . '" class="site-section">';
         $output .= '<div class="container">';
-        $output .= '<h2>' . htmlspecialchars($section['titre']) . '</h2>';
+        $output .= '<h2>' . $section['titre'] . '</h2>';
         $output .= $sectionContent;
         $output .= '</div>';
         $output .= '</section>';
