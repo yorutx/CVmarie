@@ -3,12 +3,12 @@
 /**
  * getContent
  *
- * @param  mixed $page
+ * @param  mixed $section
  * @return string
  */
-function getContent(string $page): string 
+function getContent(string $section): string 
 {
-    return getFileContent('data/pages/' . $page . '.html');
+    return getFileContent('data/sections/' . $section . '.html');
 }
 
 /**
@@ -126,14 +126,14 @@ function getAllSections(): string
 
     $output = '';
 
-    foreach ($siteData as $id => $page) {
+    foreach ($siteData as $id => $section) {
         $sectionContent = getContent($id);
         //recupere le path
 
         
         $output .= '<section id="' . $id . '" class="site-section">';
         $output .= '<div class="container">';
-        $output .= '<h2>' . htmlspecialchars($page['titre']) . '</h2>';
+        $output .= '<h2>' . htmlspecialchars($section['titre']) . '</h2>';
         $output .= $sectionContent;
         $output .= '</div>';
         $output .= '</section>';
