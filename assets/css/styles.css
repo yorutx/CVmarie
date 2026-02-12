@@ -111,7 +111,7 @@ header nav a:hover {
 
 section{
     padding          : auto;
-    scroll-margin-top: 180px;
+    scroll-margin-top: 200px;
     margin-bottom    : 100px;
 }
 
@@ -158,8 +158,10 @@ div.contact{
 
 .projectsRow {
     display    : flex;
+    align-items: center;
     gap        : 20px;
     align-items: stretch;
+    justify-content: center;
 }
 
 div.project{
@@ -172,6 +174,21 @@ div.project{
  box-shadow   : 0 8px 24px rgba(0, 0, 0, 0.15);
  width        : 40%;
  text-align   : start;
+}
+
+div.project1{
+ border         : solid, #ffffff;
+ display        : flex;
+ flex-direction : column;
+ justify-content: center;
+ align-items    : center;
+ border-width   : 2px;
+ border-radius  : 20px;
+ margin-top     : 20px;
+ padding        : 20px;
+ box-shadow     : 0 8px 24px rgba(0, 0, 0, 0.15);
+ width          : 40%;
+ text-align     : center;
 }
 
 strong{
@@ -193,9 +210,12 @@ h3 {
     font-size: 30px;
     font-style: italic;
     margin-top: 70px;
+    text-align: center;
 }
 
 h4 {
+    margin: auto;
+    margin-top: 8px;
     font-style: bold;
     font-size: 20px;
 }
@@ -333,6 +353,3 @@ form button:hover {
         font-size: 1.4em;
     }
 }
-
-
-
